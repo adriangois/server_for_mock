@@ -1,0 +1,50 @@
+
+  {
+    "id": 123,
+    "details": {
+      "id": 123,
+      "requester_email": null,
+      "creation_date_time": "2022-01-24T17:07:43.663Z",
+      "correlation_id": "teste-cid",
+      "transactions": [
+        {
+          "id": 123,
+          "transaction": {
+            "id": 123,
+            "authorization_id": null,
+            "network_authorization_id": 123,
+            "org_id": "tenant-test",
+            "account_id": 123,
+            "transaction_type": {
+              "id": 1204,
+              "description": "CRED CONF SIST FRAUDE",
+              "is_credit": true
+            },
+            "amount": 134.68,
+            "event_date": "2022-01-24T14:07:43.000",
+            "soft_descriptor": "CHARGEBACK_CONFIDENCE_CREDIT_SYSTEM_FRAUD",
+            "installment": null
+          },
+          "adjustment_type": {
+            "id": 123,
+            "code": null,
+            "org_id": "tenant-test",
+            "description": "CHARGEBACK_CONFIDENCE_CREDIT_SYSTEM_FRAUD",
+            "affects_credit_limit": true,
+            "affects_balance": true,
+            "is_sent_to_timeline": true,
+            "is_sent_to_accounting": true,
+            "validate_balance": null,
+            "visible": null,
+            "transaction_type": {
+              "id": 1204,
+              "description": "CRED CONF SIST FRAUDE",
+              "is_credit": true
+            },
+            "installment_transaction_type_id": null
+          },
+          "status": "CREATED"
+        }
+      ]
+    }
+  }

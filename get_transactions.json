@@ -1,0 +1,204 @@
+{
+    "has_next": true,
+    "items": [
+      {
+        "id": 37438522,
+        "program_id": 888,
+        "account_id": 24141240,
+        "statement_id": 668556,
+        "installment": 1,
+        "number_of_Installments": 1,
+        "soft_descriptor": "MERCHANT CO.NEW YORKUSA",
+        "processing_code": "003100",
+        "processing_description": "COMPRA INTERNACIONAL",
+        "customer_id": 23911414,
+        "user_category": "HEALTH",
+        "transaction_group": "DESPESAS",
+        "amount": [
+          {
+            "type": "PRINCIPAL",
+            "currency": "BRL",
+            "value": 100.00
+          },
+          {
+            "type": "LOCAL",
+            "currency": "BRL",
+            "value": 30.81
+          },
+          {
+            "type": "SETTLEMENT",
+            "currency": "USD",
+            "value": 30.81
+          }
+        ],
+        "tax": [
+          {
+            "type": "IOF",
+            "value": 27.77
+          }
+        ],
+        "event_date": "2022-02-14T19:04:44Z",
+        "created_at": "2022-02-14T16:07:45Z",
+        "transaction_type": {
+          "id": 102,
+          "description": "COMPRA INTERNACIONAL",
+          "credit": false,
+          "posted_transaction": true
+        },
+        "card": {
+          "id": 4926027,
+          "name": "Teste Name"
+        },
+        "authorization": {
+          "id": 3686640,
+          "type": "NETWORK",
+          "code": "CCQJC9",
+          "payment_method_id": "MASTERCARD",
+          "tracking_id": "d8068c1e-b37d-93ed-ad2c-0beaf4bb5e51"
+        },
+        "merchant": {
+          "type": "NETWORK",
+          "name": "MERCHANT CO.",
+          "city": "NEW YORK",
+          "state": "USA",
+          "category": {
+            "code": "742",
+            "description": "Veterinary Services",
+            "group_name": "HEALTH",
+            "network_group": "HEALTH"
+          }
+        }
+      },
+      {
+        "id": 37438523,
+        "program_id": 888,
+        "account_id": 24141240,
+        "statement_id": 668556,
+        "installment": 1,
+        "number_of_Installments": 1,
+        "soft_descriptor": "MERCHANT CO.NEW YORKUSA",
+        "processing_code": "003100",
+        "processing_description": "COMPRA INTERNACIONAL",
+        "customer_id": 23911414,
+        "user_category": "HEALTH",
+        "transaction_group": "DESPESAS",
+        "amount": [
+          {
+            "type": "PRINCIPAL",
+            "currency": "BRL",
+            "value": 60.00
+          },
+          {
+            "type": "LOCAL",
+            "currency": "BRL",
+            "value": 80.81
+          },
+          {
+            "type": "SETTLEMENT",
+            "currency": "USD",
+            "value": 80.81
+          }
+        ],
+        "tax": [
+          {
+            "type": "IOF",
+            "value": 27.77
+          }
+        ],
+        "event_date": "2022-02-14T19:04:44Z",
+        "created_at": "2022-02-14T16:07:45Z",
+        "transaction_type": {
+          "id": 102,
+          "description": "COMPRA INTERNACIONAL",
+          "credit": false,
+          "posted_transaction": true
+        },
+        "card": {
+          "id": 4926027,
+          "name": "Teste Name"
+        },
+        "authorization": {
+          "id": 3686640,
+          "type": "NETWORK",
+          "code": "CCQJC9",
+          "payment_method_id": "MASTERCARD",
+          "tracking_id": "d8068c1e-b37d-93ed-ad2c-0beaf4bb5e51"
+        },
+        "merchant": {
+          "type": "NETWORK",
+          "name": "MERCHANT CO.",
+          "city": "NEW YORK",
+          "state": "USA",
+          "category": {
+            "code": "742",
+            "description": "Veterinary Services",
+            "group_name": "HEALTH",
+            "network_group": "HEALTH"
+          }
+        }
+      },
+      {
+        "id": 37438524,
+        "program_id": 888,
+        "account_id": 24141240,
+        "statement_id": 668556,
+        "installment": 1,
+        "number_of_Installments": 1,
+        "soft_descriptor": "IOF INTERNACIONAL - MERCHANT CO.NEW YORKUSA",
+        "processing_code": "003100",
+        "processing_description": "COMPRA INTERNACIONAL",
+        "customer_id": 23911414,
+        "user_category": "HEALTH",
+        "transaction_group": "DESPESAS",
+        "amount": [
+          {
+            "type": "PRINCIPAL",
+            "currency": "BRL",
+            "value": 27.77
+          },
+          {
+            "type": "LOCAL",
+            "currency": "BRL",
+            "value": 80.81
+          },
+          {
+            "type": "SETTLEMENT",
+            "currency": "USD",
+            "value": 80.81
+          }
+        ],
+        "tax": null,
+        "event_date": "2022-02-14T19:04:44Z",
+        "created_at": "2022-02-14T16:07:45Z",
+        "transaction_type": {
+          "id": 404,
+          "description": "IOF INTERNACIONAL",
+          "credit": false,
+          "posted_transaction": true
+        },
+        "card": {
+          "id": 4926027,
+          "name": "Teste Name"
+        },
+        "authorization": {
+          "id": 3686640,
+          "type": "NETWORK",
+          "code": "CCQJC9",
+          "payment_method_id": "MASTERCARD",
+          "tracking_id": "d8068c1e-b37d-93ed-ad2c-0beaf4bb5e51"
+        },
+        "merchant": {
+          "type": "NETWORK",
+          "name": "MERCHANT CO.",
+          "city": "NEW YORK",
+          "state": "USA",
+          "category": {
+            "code": "742",
+            "description": "Veterinary Services",
+            "group_name": "HEALTH",
+            "network_group": "HEALTH"
+          }
+        }
+      }
+    ]
+  }
